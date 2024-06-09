@@ -23,4 +23,7 @@
 - More specific Jenkins images
 ## Working with Multi-architecture containers in Jenkins
 - Understanding multi-architecture:
-  Command: docker image inspect  jenkins/jenkins:lts --format '{{ .Os }}/{{ .Architecture }}'
+  - Command: docker image inspect  jenkins/jenkins:lts --format '{{ .Os }}/{{ .Architecture }}'
+  - QEMU a hardware virtualizer
+  - How buildX Builds for platforms you do not have (Research MAME)
+  - 
