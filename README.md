@@ -3,6 +3,9 @@
 # Need to understand about the Docker and Jenkins:
 ## Docker and Kernel
 - What's a Kernel ?
+  - NT kernel for windows
+  - Debian kernel for linux
+  - what is difference between VM and Container ?
 - The Docker filesystem
 - Running the Jenkins in a container
 - Understanding copy in write on image and container layers
