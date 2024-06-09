@@ -22,3 +22,4 @@
 - Working the private registries
 - More specific Jenkins images
 ## Working with Multi-architecture containers in Jenkins
+- Understanding multi-architecture: docker image inspect --format '{{Os}}/{{.Architecture}}' jenkins/jenkins:lts
